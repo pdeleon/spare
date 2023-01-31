@@ -195,5 +195,41 @@
     width: 45rem;
 }
 
+.carousel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #EBECE3;
+}
 
+.carousel__img1,
+.carousel__img3 {
+    opacity: .6;
+}
 
+.carousel-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.carousel__txt {
+    position: absolute;
+    top: 6rem;
+    left: 60rem;
+    color: #fff;
+}
+
+.carousel__txt h2 {
+    font-size: calc(2rem * 1.5);
+    margin-bottom: 3rem;
+    line-height: 1.2;
+}
+.carousel__txt p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
