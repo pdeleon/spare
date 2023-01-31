@@ -40,18 +40,20 @@
 }
 
 .signup__container {
-    margin-right: 20%;
+    margin-right: 40%;
 }
 
 .signup__heading {
     font-size: calc(2rem * 1.5);
     font-weight: 700;
     margin-bottom: 3rem;
+    line-height: 1.2;
 }
 
 .signup__sub-txt {
     font-weight: 300;
     margin-bottom: 3rem;
+    line-height: 1.5;
 }
 
 /* =======>>> magnets <<<======= */
