@@ -3,6 +3,8 @@
     font-size: 10px;
 }
 
+
+/* =======>>> header <<<======= */
 .header {
     display: flex;
     align-items: center;
@@ -20,7 +22,7 @@
     height: 50px;
 }
 
-
+/* =======>>> signup <<<======= */
 .signup {
     display: flex;
     flex-direction: column;
@@ -51,6 +53,45 @@
     font-weight: 300;
     margin-bottom: 3rem;
 }
+
+/* =======>>> magnets <<<======= */
+.magnets {
+    background-image: url("../img/second_slide_bg.jpg");
+    font-size: 2rem;
+    color: #383837;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 2.5rem;
+    align-items: center;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+
+.magnets__heading {
+    font-size: calc(2rem * 1.5);
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+
+.magnets__container {
+    line-height: 1.7;
+    text-align: center;
+}
+.magnets__container:nth-child(1) {
+    padding: 13rem 0 40rem 0;
+}
+
+.magnets__container:nth-child(2) {
+    margin-right: 35%;
+    color: #fff;
+}
+
+.magnets__footnote {
+    color: #000;
+    margin-top: 20rem;
+}
+
+
 
 
 
