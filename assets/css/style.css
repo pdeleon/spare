@@ -9,7 +9,7 @@
     justify-content: space-around;
     padding: 2rem 0;
     background-color: #EBECE3;
-    font-size: 2rem;;
+    font-size: 2rem;
 }
 
 .header__logo img {
@@ -19,3 +19,42 @@
 .header__socials img {
     height: 50px;
 }
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/video_bg.jpg");
+    font-size: 2rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding: 2rem 2.5rem;
+    height: calc(100vh - 9.2rem);
+    text-align: center;
+}
+
+.signup__container {
+    margin-right: 20%;
+}
+
+.signup__heading {
+    font-size: calc(2rem * 1.5);
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.signup__sub-txt {
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
